@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #28272a;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 200;
+}
+
+.header button {
+  padding: 5px 30px;
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  height: 22vh;
+  width: 95vw;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-item {
+  padding: 15px 20px;
+  width: 25%;
+  height: 100%;
+  position: relative;
+}
+
+.card-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card-item .duration {
+  width: fit-content;
+  padding: 1px 5px;
+  background-color: #000000be;
+  border-radius: 7px;
+  position: absolute;
+  z-index: 10;
+  bottom: 23px;
+  right: 30px;
+  font-size: 1.4vw;
+  font-weight: 500;
+}
+
+.card-content {
+  padding: 15px 0px;
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content h3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.cDetails {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+.cDetails h4,
+.cDetails .dot {
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+@media (max-width: 650px) {
+  .card {
+    height: 17vh;
+  }
+  .card-item {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 425px) {
+  .card {
+    height: 13vh;
+  }
+  .card-item {
+    padding: 8px 10px;
+  }
+  .card-item .duration {
+    bottom: 12px;
+    right: 13px;
+    font-size: 1.2vw;
+  }
+  .card-item img {
+    border-radius: 7px;
+  }
+  .card-item {
+    width: 30%;
+  }
+  .card-content {
+    width: 70%;
+  }
+}
+@media (max-width: 320px) {
+  .card-item {
+    width: 35%;
+  }
+  .card-content {
+    width: 65%;
+  }
+  .card-content h3 {
+    font-size: 1.9vw;
+  }
+  .cDetails h4,
+  .cDetails .dot {
+    font-size: 1.6vw;
+  }
+}
