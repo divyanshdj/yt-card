@@ -103,6 +103,32 @@ body {
   font-weight: 300;
 }
 
+@media (max-width: 1024px) {
+  .card {
+    height:12vh;
+  }
+  .card-item {
+    padding: 10px 15px;
+  }
+  .card-item .duration {
+    bottom: 16px;
+    right: 19px;
+    font-size: -0.2vw;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    height: 17vh;
+  }
+  .card-item {
+    padding: 10px 15px;
+  }
+  .card-item .duration {
+    bottom: 16px;
+    right: 19px;
+    font-size: -0.2vw;
+  }
+}
 @media (max-width: 650px) {
   .card {
     height: 17vh;
@@ -110,35 +136,24 @@ body {
   .card-item {
     padding: 10px 15px;
   }
-}
-@media (max-width: 425px) {
-  .card {
-    height: 13vh;
-  }
-  .card-item {
-    padding: 8px 10px;
-  }
   .card-item .duration {
-    bottom: 12px;
-    right: 13px;
-    font-size: 1.2vw;
-  }
-  .card-item img {
-    border-radius: 7px;
-  }
-  .card-item {
-    width: 30%;
-  }
-  .card-content {
-    width: 70%;
+    bottom: 16px;
+    right: 19px;
+    font-size: 1.6vw;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 430px) {
+  .card {
+    height: 12vh;
+  }
   .card-item {
-    width: 35%;
+    padding: 10px 15px;
+  }
+  .card-item {
+    width: 40%;
   }
   .card-content {
-    width: 65%;
+    width: 60%;
   }
   .card-content h3 {
     font-size: 1.9vw;
@@ -146,5 +161,14 @@ body {
   .cDetails h4,
   .cDetails .dot {
     font-size: 1.6vw;
+  }
+  .card-item .duration {
+    bottom: 16px;
+    right: 19px;
+    font-size: 2.8vw;
+  }
+  .header button {
+    padding: 5px 5px;
+    font-size: 2.1vw;
   }
 }
