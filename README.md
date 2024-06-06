@@ -1,6 +1,3 @@
-
-This repository contains code for a dynamic YouTube card generator using HTML, CSS, and JavaScript. Users can create visually appealing cards with thumbnail images, channel names, titles, and more, all dynamically generated from array data.
-
 <div align="center">
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/Movie-Watchlist)
@@ -12,7 +9,7 @@ This repository contains code for a dynamic YouTube card generator using HTML, C
 
   # yt-card
 
-  "Movie-Watchlist" is a website framework designed for organizing and managing your movie collection. Simplify the process of adding and deleting movies from your watchlist with this customizable and user-friendly platform.
+  This repository contains code for a dynamic YouTube card generator using HTML, CSS, and JavaScript. Users can create visually appealing cards with thumbnail images, channel names, titles, and more, all dynamically generated from array data.
 
   Explore Here :   <a href="https://movies-watchlisters.netlify.app/" target="_blank"><strong>➥ Live Demo</strong></a>
 
