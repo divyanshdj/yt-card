@@ -1,8 +1,8 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/Movie-Watchlist)
-  ![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/Movie-Watchlist)
-  ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/Movie-Watchlist?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/yt-card)
+  ![GitHub language count](https://img.shields.io/github/languages/count/divyanshdj/yt-card)
+  ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/yt-card?style=social)
 
 </div>
 <div align="left">
